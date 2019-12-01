@@ -1,37 +1,26 @@
-# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
 
-paginate: 10 # pagination based on number of posts
-paginate_path: "page:num"
-exclude: ["README.md"] # files to exclude
-highlighter: rouge
-markdown: kramdown
-disqus: pgermishuys
-google_analytics: pgermishuys
-title: Pieter Germishuys
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
 
-defaults:
-  - scope:
-      path: "" # empty string for all files
-    values:
-      title: Pieter Germishuys
+# Setup
+title:            Hyde
+tagline:          'A Jekyll theme'
+description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+url:              http://hyde.getpoole.com
+baseurl:          /
 
-description: Software Development
 author:
-  name: Pieter Germishuys
-  email: blog-feedback@pieterg.com
-  github: pgermishuys
-  twitter: pgermishuys
-  bio: Pieter Germishuys Software Development Blog
-  email_md5: 031afc58b8b4d56cbd6dcf831d402d2b
+  name:           'Mark Otto'
+  url:            https://twitter.com/mdo
 
-rss_path: feed.xml
-categories_path: categories.html
-tags_path: tags.html
+paginate:         5
 
-# set it as url of an image
-# sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
+# Custom vars
+version:          2.1.0
 
-BASE_PATH:
-
-plugins:
-  - jekyll-paginate
+github:
+  repo:           https://github.com/poole/hyde
