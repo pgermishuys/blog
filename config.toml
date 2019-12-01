@@ -1,0 +1,4 @@
+baseURL = "https://blog.pieterg.com/"
+languageCode = "en-us"
+title = "Pieter Germishuys"
+theme="hyde"
