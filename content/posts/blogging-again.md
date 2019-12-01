@@ -1,11 +1,7 @@
 ---
-layout: post
-title: Blogging again
-date: 2018-02-10 12:55:00
-tags: [personal]
-class: post-template
-subclass: "post tag-personal"
-author: pgermishuys
+title: "Blogging Again"
+date: 2018-02-10T12:55:03+01:00
+draft: true
 ---
 
 It's been quite some time since I have written anything.
