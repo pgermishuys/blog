@@ -1,64 +1,53 @@
 ---
-layout: error
-current: error
-title: "404 - Page Not Found"
+layout: page
 permalink: 404.html
 ---
-<!--
-This error template is used for all 404 errors, which might occur on your site.
-It's a good idea to keep this template as minimal as possible in terms of both file size and complexity.
--->
+<!----------------------------------------------------------------
+     _ _           _ _          
+  __| | |__  _   _| | |         Ascii arts included in this page:
+ / _` | '_ \| | | | | |         - R2D2, provided by: http://www.chris.com/
+| (_| | |_) | |_| | | |         - Texts, generated from: http://www.network-science.de/ascii/
+ \__,_|_.__/ \__, |_|_|         http://github.com/dbtek/dbyll
+-------------|___/------------------------------------------------>
 
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>{{ page.title }}</title>
-    <meta name="HandheldFriendly" content="True" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}assets/built/screen.css" />
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}assets/built/screen.edited.css" />
-    <!-- This tag outputs SEO meta+structured data and other important settings -->
-    {% include head.html %}
-</head>
-<body class="error-template">
-    <div class="site-wrapper">
+  <style>
+    pre {
+          background: none;
+          border: none;
+    }
+  </style>
 
-        <header class="site-header outer {% if page.cover %}" style="background-image: url({{ site.baseurl }}{{ page.cover }})){% else %}no-cover{% endif %}">
-            <div class="inner">
-                <nav class="site-nav-center">
-                    {% if site.logo %}
-                        <a class="site-nav-logo" href="{{ site.baseurl }}"><img src="{{site.baseurl}}{{ site.logo }}" alt="{{ site.title }}" /></a>
-                    {% else %}
-                        <a class="site-nav-logo" href="{{ site.baseurl }}">{{ site.title }}</a>
-                    {% endif %}
-                </nav>
-            </div>
-        </header>
+  <pre>
 
-        <main id="site-main" class="site-main outer" role="main">
-            <div class="inner">
+                       444444444       000000000            444444444   
+                      4::::::::4     00:::::::::00         4::::::::4  
+                     4:::::::::4   00:::::::::::::00      4:::::::::4  
+                    4::::44::::4  0:::::::000:::::::0    4::::44::::4  
+                   4::::4 4::::4  0::::::0   0::::::0   4::::4 4::::4  
+                  4::::4  4::::4  0:::::0     0:::::0  4::::4  4::::4  
+                 4::::4   4::::4  0:::::0     0:::::0 4::::4   4::::4  
+                4::::444444::::4440:::::0 000 0:::::04::::444444::::444
+                4::::::::::::::::40:::::0 000 0:::::04::::::::::::::::4
+                4444444444:::::4440:::::0     0:::::04444444444:::::444
+                          4::::4  0:::::0     0:::::0          4::::4  
+                          4::::4  0::::::0   0::::::0          4::::4  
+                          4::::4  0:::::::000:::::::0          4::::4  
+                        44::::::44 00:::::::::::::00         44::::::44
+                        4::::::::4   00:::::::::00           4::::::::4
+                        4444444444     000000000             4444444444
 
-                <section class="error-message">
-                    <h1 class="error-code">404</h1>
-                    <p class="error-description">Page not found</p>
-                    <a class="error-link" href="{{ site.baseurl }}">Go to the front page →</a>
-                </section>
-            </div>
-        </main>
+         ,-----.             _   _     _           _                 _     _               _   
+       ,'_/_|_\_`.          | |_| |__ (_)___   ___| |__   ___  _   _| | __| |  _ __   ___ | |_ 
+      /<<::8[O]::>\         | __| '_ \| / __| / __| '_ \ / _ \| | | | |/ _` | | '_ \ / _ \| __|
+     _|-----------|_        | |_| | | | \__ \ \__ \ | | | (_) | |_| | | (_| | | | | | (_) | |_ 
+ :::|  | ====-=- |  |:::     \__|_| |_|_|___/ |___/_| |_|\___/ \__,_|_|\__,_| |_| |_|\___/ \__|
+ :::|  | -=-==== |  |:::                                                                         
+ :::\  | ::::|()||  /:::     _                                                          
+ ::::| | ....|()|| |::::    | |__   __ _ _ __  _ __   ___ _ __       _____   _____ _ __ 
+     | |_________| |        | '_ \ / _` | '_ \| '_ \ / _ \ '_ \     / _ \ \ / / _ \ '__|
+     | |\_______/| |        | | | | (_| | |_) | |_) |  __/ | | |_  |  __/\ V /  __/ |   
+    /   \ /   \ /   \       |_| |_|\__,_| .__/| .__/ \___|_| |_( )  \___| \_/ \___|_|   
+    `---' `---' `---'                   |_|   |_|              |/                       
 
-        <!-- get "posts" limit="3" -->
-        <aside class="outer">
-            <div class="inner">
-                <div class="post-feed">
-                    <!-- The tag below includes the markup for each post - partials/post-card.hbs -->
-                    {%  include post-card-error.html %}
-                </div>
-            </div>
-        </aside>
-        <!-- /get -->
 
-    </div>
-</body>
-</html>
+    </pre>
