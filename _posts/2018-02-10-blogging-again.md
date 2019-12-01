@@ -1,13 +1,10 @@
 ---
 layout: post
-current: post
-cover:  assets/images/welcome.jpg
-navigation: True
 title: Blogging again
 date: 2018-02-10 12:55:00
 tags: [personal]
 class: post-template
-subclass: 'post tag-personal'
+subclass: "post tag-personal"
 author: pgermishuys
 ---
 
